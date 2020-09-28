@@ -1,0 +1,54 @@
+header{
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background: transparent;
+    transition: all ease 1s;
+}
+
+header.black {
+    background-color: #141414;
+}
+
+.categorias{
+    margin-left: 250px;
+    margin-top: -50px;
+}
+
+.active {
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+.item {
+    color: #999;
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.item:hover{
+    color: #fff;
+}
+
+.header--user img{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 70px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.header--logo{
+    height: 100%;
+    width: 10%;
+    margin-right: 30px;
+}
