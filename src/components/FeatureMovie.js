@@ -3,8 +3,6 @@ import './FeatureMovie.css';
 
 export default ({item}) => {
 
-    console.log(item);
-
     let date = new Date(item.first_air_date);
 
     let genres = [];

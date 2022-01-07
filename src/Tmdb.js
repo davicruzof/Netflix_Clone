@@ -1,19 +1,21 @@
-
-
 /*
-    - Originais Nteflix
-    - Recomendados Nteflix (trending)
-    - Em alta Nteflix (top rated)
+    - Originais Netflix
+    - Recomendados Netflix (trending)
+    - Em alta Netflix (top rated)
     - Ação
     - Comédia
     - Terror
-    - Romançe
+    - Romance
     - Documentários
 */
+
+const Base_Url = 'https://api.themoviedb.org/3';
+const Api_Key = 'c282ecd1f23e9cc2c3cfa9e5d39176f9';
 
 const basicFetch = async (endpoint) => {
     const req = await fetch(`${Base_Url}${endpoint}`);
     const json = await req.json();
+    console.log(json)
     return json;
 }
 
